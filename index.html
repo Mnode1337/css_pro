@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/style.css">
-        <title>Code Lyoko</title>
+        <title>Lyoko</title>
     </head>
 
     <body>
@@ -16,9 +16,11 @@
         <!-- Navbar -->
         <div class="navbar">
 
-            <div class="container">
+            <!-- utility class of flex -->
+            <div class="container flex">
 
-                <h1 class="logo">Lyoko</h1>
+                <h1 class="logo">Lyoko.</h1>
+
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -30,6 +32,46 @@
             </div>
 
         </div>
+
+        <!-- Showcase -->
+        <section class="showcase">
+            
+            <!-- utility class of grid -->
+            <div class="container grid">
+
+                <div class="showcase-text">
+                    <h1>Easier Deployment</h1>
+                    <p>Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out the form to try a demo of our platform</p>
+                    <a href="features.html" class="btn btn-outline">Read More</a>
+                </div>
+
+                <div class="showcase-form card">
+
+                    <h2>Request a Demo</h2>
+
+                    <form>
+
+                        <div class="form-control">
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+
+                        <div class="form-control">
+                            <input type="text" name="name" placeholder="Company Name" required>
+                        </div>
+
+                        <div class="form-control">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+
+                        <input type="submit" value="Send" class="btn btn-primary">
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
         
     </body>
 
