@@ -1,4 +1,15 @@
+/** */
 /** Utilities aka classes that we will use all over the website*/
+
+/** Custom properties */
+:root {
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --sec-color: #b4becb;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -37,6 +48,28 @@
     transform: scale(.98);
 }
 
+/** Text size helper class */
+/** Text sizes  */
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
 .text-center {
     text-align: center;
 }
@@ -46,6 +79,24 @@
 .btn-primary {
     background-color: var(--primary-color);
     color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+    color: #333;
 }
 
 .flex {
