@@ -93,6 +93,15 @@
     color: #fff;
 }
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a{
+    color: #fff;
+}
+
 .bg-light,
 .btn-light {
     background-color: var(--light-color);
@@ -166,7 +175,11 @@
     margin: 4rem;
 }
 
-/** Padding top and bottom */
+/** 
+ *
+ * Padding top and bottom : we use py because the padding is added
+   to the y axis
+ */
 .py-1 {
     padding: 1rem 0; 
     /** rem is a multiplier of the root elt font-size */

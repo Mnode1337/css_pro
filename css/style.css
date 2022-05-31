@@ -195,3 +195,14 @@ img {
 .languages .card:hover {
     transform: translateY(-15px);
 }
+
+/** Footer */
+.footer .social a {
+    margin: 0 10px;
+}
+
+/** Media Queries: Tablets and under */
+
+/** Media Queries: Mobile */
+
+
